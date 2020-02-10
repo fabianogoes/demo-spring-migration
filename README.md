@@ -46,4 +46,4 @@ sudo docker run -p 5432:5432 -d \
 
 - Running application in **dbmigration** mode: `SPRING_PROFILES_ACTIVE=dbmigration ./gradlew clean bootRun`
 
-:warning: In this mode you **should** run migration
+:information_source: In this mode you **should** run migration
